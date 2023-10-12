@@ -1,5 +1,6 @@
 # Prerequisites
 *.d
+*.DS_Store
 
 # Compiled Object files
 *.slo
@@ -30,3 +31,17 @@
 *.exe
 *.out
 *.app
+
+# Simulation Files and Directories
+*e*/* 
+*.xyz
+*.csv
+*.txt
+*.dat
+*.sub
+*.out
+*.err
+
+# Paper drafts
+*.doc
+*.docx
