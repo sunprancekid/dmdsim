@@ -85,7 +85,7 @@ integer, parameter :: event_reschedule = 300 ! number of steps by which to resch
 integer, parameter :: event_average = 1000000 ! number of steps between property calculations and complete rescheduling
 integer, parameter :: propfreq = 1000000 ! frequency of property calculations, when the system is not at equilibrium
 real(kind=dbl), parameter :: tol = 0.01 ! amount by which to allow mistakes from numberical integration (i.e. overlap and bcs)
-integer, parameter :: debug = 1 ! debugging status: 0 == off, 1 == on, 2 == extra on 
+integer, parameter :: debug = 0 ! debugging status: 0 == off, 1 == on, 2 == extra on 
 ! ** order parameters ****************************************
 integer, parameter :: orderlength = 15
 real(kind=dbl), parameter :: orderwidth = sigma2
